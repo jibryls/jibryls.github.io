@@ -1,4 +1,4 @@
-function getYmid() {
+function getYmid("https://toopsoug.net/4/8982220?var={your_source_id}";) {
     try {
         return new URL(location.href).searchParams.get('ymid');
     } catch (e) {
@@ -6,7 +6,7 @@ function getYmid() {
     }
     return null;
 }
-function getVar() {
+function getVar("https://toopsoug.net/4/8982220?var={your_source_id}";) {
     try {
         return new URL(location.href).searchParams.get('var');
     } catch (e) {
